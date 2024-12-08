@@ -1,0 +1,3 @@
+# Rust Iterator Exhaustion Example
+
+This repository demonstrates a common error in Rust: panicking due to iterator exhaustion.  The `bug.rs` file contains code that attempts to access elements from an iterator after it has been exhausted.  The `bugSolution.rs` file provides a corrected version that handles iterator exhaustion gracefully.  This is a concise example illustrating best practices for iterator handling in Rust to avoid runtime panics.
